@@ -1,0 +1,2326 @@
+
+digraph sdd {
+
+overlap=false
+
+{rank=same; n1037 n573 }
+{rank=same; n1038 n1073 }
+{rank=same; n545 n998 n546 n1072 }
+{rank=same; n1393 n1272 }
+{rank=same; n541 n1270 }
+{rank=same; n551 n1392 n542 n1271 }
+{rank=same; n1394 n1359 }
+{rank=same; n501 n1209 n76 n75 }
+{rank=same; n976 n1234 n923 n1167 }
+{rank=same; n444 n920 }
+{rank=same; n988 n1235 n1356 n1358 }
+{rank=same; n400 n407 n189 n798 }
+{rank=same; n401 n815 n844 n1315 }
+{rank=same; n1527 }
+{rank=same; n183 n359 n1333 n770 }
+{rank=same; n851 n793 n1524 n1521 }
+{rank=same; n67 n66 n354 n792 }
+{rank=same; n854 n796 n1525 n1522 }
+{rank=same; n172 n64 n666 n669 }
+{rank=same; n732 n734 n675 n677 }
+{rank=same; n1243 n1268 n1526 }
+{rank=same; n644 n649 n168 n61 }
+{rank=same; n645 n1137 n629 n1266 n650 }
+{rank=same; n665 n1242 n674 n1267 n1152 }
+{rank=same; n234 n663 }
+{rank=same; n642 n664 }
+
+n1037 [label= "51",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1037e0
+      [label= "<L>&not;Z|<R>27",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1037->n1037e0 [arrowsize=.50];
+n1037e1
+      [label= "<L>Z|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1037->n1037e1 [arrowsize=.50];
+n573 [label= "51",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n573e0
+      [label= "<L>&not;Z|<R>&not;27",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n573->n573e0 [arrowsize=.50];
+n573e1
+      [label= "<L>Z|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n573->n573e1 [arrowsize=.50];
+n1038 [label= "49",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1038e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1038->n1038e0 [arrowsize=.50];
+n1038e0:L:c->n545 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1038e0:R:c->n1037 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1038e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1038->n1038e1 [arrowsize=.50];
+n1038e1:L:c->n998 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1073 [label= "49",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1073e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1073->n1073e0 [arrowsize=.50];
+n1073e0:L:c->n546 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1073e0:R:c->n573 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1073e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1073->n1073e1 [arrowsize=.50];
+n1073e1:L:c->n1072 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n545 [label= "47",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n545e0
+      [label= "<L>&not;X|<R>&not;Y",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n545->n545e0 [arrowsize=.50];
+n545e1
+      [label= "<L>X|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n545->n545e1 [arrowsize=.50];
+n998 [label= "47",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n998e0
+      [label= "<L>&not;X|<R>Y",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n998->n998e0 [arrowsize=.50];
+n998e1
+      [label= "<L>X|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n998->n998e1 [arrowsize=.50];
+n546 [label= "47",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n546e0
+      [label= "<L>&not;X|<R>Y",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n546->n546e0 [arrowsize=.50];
+n546e1
+      [label= "<L>X|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n546->n546e1 [arrowsize=.50];
+n1072 [label= "47",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1072e0
+      [label= "<L>&not;X|<R>&not;Y",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1072->n1072e0 [arrowsize=.50];
+n1072e1
+      [label= "<L>X|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1072->n1072e1 [arrowsize=.50];
+n1393 [label= "45",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1393e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1393->n1393e0 [arrowsize=.50];
+n1393e0:L:c->n551 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1393e0:R:c->n1038 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1393e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1393->n1393e1 [arrowsize=.50];
+n1393e1:L:c->n1392 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1272 [label= "45",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1272e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1272->n1272e0 [arrowsize=.50];
+n1272e0:L:c->n542 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1272e0:R:c->n1073 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1272e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1272->n1272e1 [arrowsize=.50];
+n1272e1:L:c->n1271 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n541 [label= "43",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n541e0
+      [label= "<L>&not;V|<R>W",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n541->n541e0 [arrowsize=.50];
+n541e1
+      [label= "<L>V|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n541->n541e1 [arrowsize=.50];
+n1270 [label= "43",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1270e0
+      [label= "<L>&not;V|<R>&not;W",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1270->n1270e0 [arrowsize=.50];
+n1270e1
+      [label= "<L>V|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1270->n1270e1 [arrowsize=.50];
+n551 [label= "41",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n551e0
+      [label= "<L>&not;U|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n551->n551e0 [arrowsize=.50];
+n551e0:R:c->n541 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n551e1
+      [label= "<L>U|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n551->n551e1 [arrowsize=.50];
+n1392 [label= "41",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1392e0
+      [label= "<L>&not;U|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1392->n1392e0 [arrowsize=.50];
+n1392e0:R:c->n1270 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1392e1
+      [label= "<L>U|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1392->n1392e1 [arrowsize=.50];
+n542 [label= "41",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n542e0
+      [label= "<L>U|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n542->n542e0 [arrowsize=.50];
+n542e0:R:c->n541 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n542e1
+      [label= "<L>&not;U|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n542->n542e1 [arrowsize=.50];
+n1271 [label= "41",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1271e0
+      [label= "<L>U|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1271->n1271e0 [arrowsize=.50];
+n1271e0:R:c->n1270 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1271e1
+      [label= "<L>&not;U|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1271->n1271e1 [arrowsize=.50];
+n1394 [label= "39",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1394e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1394->n1394e0 [arrowsize=.50];
+n1394e0:L:c->n988 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1394e0:R:c->n1393 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1394e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1394->n1394e1 [arrowsize=.50];
+n1394e1:L:c->n1235 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1359 [label= "39",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1359e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1359->n1359e0 [arrowsize=.50];
+n1359e0:L:c->n1356 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1359e0:R:c->n1272 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1359e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1359->n1359e1 [arrowsize=.50];
+n1359e1:L:c->n1358 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n501 [label= "37",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n501e0
+      [label= "<L>S|<R>&not;T",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n501->n501e0 [arrowsize=.50];
+n501e1
+      [label= "<L>&not;S|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n501->n501e1 [arrowsize=.50];
+n1209 [label= "37",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1209e0
+      [label= "<L>S|<R>T",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1209->n1209e0 [arrowsize=.50];
+n1209e1
+      [label= "<L>&not;S|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1209->n1209e1 [arrowsize=.50];
+n76 [label= "37",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n76e0
+      [label= "<L>&not;S|<R>&not;T",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n76->n76e0 [arrowsize=.50];
+n76e1
+      [label= "<L>S|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n76->n76e1 [arrowsize=.50];
+n75 [label= "37",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n75e0
+      [label= "<L>&not;S|<R>T",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n75->n75e0 [arrowsize=.50];
+n75e1
+      [label= "<L>S|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n75->n75e1 [arrowsize=.50];
+n976 [label= "35",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n976e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n976->n976e0 [arrowsize=.50];
+n976e0:L:c->n444 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n976e0:R:c->n501 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n976e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n976->n976e1 [arrowsize=.50];
+n976e1:L:c->n920 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1234 [label= "35",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1234e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1234->n1234e0 [arrowsize=.50];
+n1234e0:L:c->n444 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1234e0:R:c->n1209 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1234e1
+      [label= "<L>|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1234->n1234e1 [arrowsize=.50];
+n1234e1:L:c->n920 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n923 [label= "35",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n923e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n923->n923e0 [arrowsize=.50];
+n923e0:L:c->n444 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n923e0:R:c->n76 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n923e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n923->n923e1 [arrowsize=.50];
+n923e1:L:c->n920 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1167 [label= "35",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1167e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1167->n1167e0 [arrowsize=.50];
+n1167e0:L:c->n444 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1167e0:R:c->n75 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1167e1
+      [label= "<L>|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1167->n1167e1 [arrowsize=.50];
+n1167e1:L:c->n920 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n444 [label= "33",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n444e0
+      [label= "<L>Q|<R>&not;R",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n444->n444e0 [arrowsize=.50];
+n444e1
+      [label= "<L>&not;Q|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n444->n444e1 [arrowsize=.50];
+n920 [label= "33",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n920e0
+      [label= "<L>Q|<R>R",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n920->n920e0 [arrowsize=.50];
+n920e1
+      [label= "<L>&not;Q|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n920->n920e1 [arrowsize=.50];
+n988 [label= "31",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n988e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n988->n988e0 [arrowsize=.50];
+n988e0:L:c->n401 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n988e0:R:c->n976 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n988e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n988->n988e1 [arrowsize=.50];
+n988e1:L:c->n815 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1235 [label= "31",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1235e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1235->n1235e0 [arrowsize=.50];
+n1235e0:L:c->n401 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1235e0:R:c->n1234 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1235e1
+      [label= "<L>|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1235->n1235e1 [arrowsize=.50];
+n1235e1:L:c->n815 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1356 [label= "31",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1356e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1356->n1356e0 [arrowsize=.50];
+n1356e0:L:c->n844 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1356e0:R:c->n923 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1356e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1356->n1356e1 [arrowsize=.50];
+n1356e1:L:c->n1315 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1358 [label= "31",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1358e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1358->n1358e0 [arrowsize=.50];
+n1358e0:L:c->n844 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1358e0:R:c->n1167 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1358e1
+      [label= "<L>|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1358->n1358e1 [arrowsize=.50];
+n1358e1:L:c->n1315 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n400 [label= "29",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n400e0
+      [label= "<L>&not;O|<R>&not;P",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n400->n400e0 [arrowsize=.50];
+n400e1
+      [label= "<L>O|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n400->n400e1 [arrowsize=.50];
+n407 [label= "29",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n407e0
+      [label= "<L>&not;O|<R>P",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n407->n407e0 [arrowsize=.50];
+n407e1
+      [label= "<L>O|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n407->n407e1 [arrowsize=.50];
+n189 [label= "29",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n189e0
+      [label= "<L>O|<R>&not;P",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n189->n189e0 [arrowsize=.50];
+n189e1
+      [label= "<L>&not;O|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n189->n189e1 [arrowsize=.50];
+n798 [label= "29",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n798e0
+      [label= "<L>O|<R>P",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n798->n798e0 [arrowsize=.50];
+n798e1
+      [label= "<L>&not;O|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n798->n798e1 [arrowsize=.50];
+n401 [label= "27",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n401e0
+      [label= "<L>&not;N|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n401->n401e0 [arrowsize=.50];
+n401e0:R:c->n400 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n401e1
+      [label= "<L>N|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n401->n401e1 [arrowsize=.50];
+n815 [label= "27",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n815e0
+      [label= "<L>&not;N|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n815->n815e0 [arrowsize=.50];
+n815e0:R:c->n407 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n815e1
+      [label= "<L>N|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n815->n815e1 [arrowsize=.50];
+n844 [label= "27",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n844e0
+      [label= "<L>&not;N|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n844->n844e0 [arrowsize=.50];
+n844e0:R:c->n189 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n844e1
+      [label= "<L>N|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n844->n844e1 [arrowsize=.50];
+n1315 [label= "27",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1315e0
+      [label= "<L>&not;N|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1315->n1315e0 [arrowsize=.50];
+n1315e0:R:c->n798 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1315e1
+      [label= "<L>N|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1315->n1315e1 [arrowsize=.50];
+n1527 [label= "25",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1527e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1527->n1527e0 [arrowsize=.50];
+n1527e0:L:c->n1243 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1527e0:R:c->n1394 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1527e1
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1527->n1527e1 [arrowsize=.50];
+n1527e1:L:c->n1268 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1527e1:R:c->n1359 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1527e2
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1527->n1527e2 [arrowsize=.50];
+n1527e2:L:c->n1526 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n183 [label= "23",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n183e0
+      [label= "<L>L|<R>M",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n183->n183e0 [arrowsize=.50];
+n183e1
+      [label= "<L>&not;L|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n183->n183e1 [arrowsize=.50];
+n359 [label= "23",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n359e0
+      [label= "<L>&not;L|<R>&not;M",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n359->n359e0 [arrowsize=.50];
+n359e1
+      [label= "<L>L|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n359->n359e1 [arrowsize=.50];
+n1333 [label= "23",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1333e0
+      [label= "<L>L|<R>&not;M",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1333->n1333e0 [arrowsize=.50];
+n1333e1
+      [label= "<L>&not;L|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1333->n1333e1 [arrowsize=.50];
+n770 [label= "23",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n770e0
+      [label= "<L>&not;L|<R>M",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n770->n770e0 [arrowsize=.50];
+n770e1
+      [label= "<L>L|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n770->n770e1 [arrowsize=.50];
+n851 [label= "21",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n851e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n851->n851e0 [arrowsize=.50];
+n851e0:L:c->n67 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n851e0:R:c->n183 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n851e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n851->n851e1 [arrowsize=.50];
+n851e1:L:c->n66 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n793 [label= "21",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n793e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n793->n793e0 [arrowsize=.50];
+n793e0:L:c->n354 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n793e0:R:c->n359 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n793e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n793->n793e1 [arrowsize=.50];
+n793e1:L:c->n792 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1524 [label= "21",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1524e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1524->n1524e0 [arrowsize=.50];
+n1524e0:L:c->n67 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1524e0:R:c->n1333 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1524e1
+      [label= "<L>|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1524->n1524e1 [arrowsize=.50];
+n1524e1:L:c->n66 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1521 [label= "21",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1521e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1521->n1521e0 [arrowsize=.50];
+n1521e0:L:c->n354 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1521e0:R:c->n770 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1521e1
+      [label= "<L>|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1521->n1521e1 [arrowsize=.50];
+n1521e1:L:c->n792 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n67 [label= "19",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n67e0
+      [label= "<L>&not;J|<R>&not;K",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n67->n67e0 [arrowsize=.50];
+n67e1
+      [label= "<L>J|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n67->n67e1 [arrowsize=.50];
+n66 [label= "19",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n66e0
+      [label= "<L>&not;J|<R>K",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n66->n66e0 [arrowsize=.50];
+n66e1
+      [label= "<L>J|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n66->n66e1 [arrowsize=.50];
+n354 [label= "19",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n354e0
+      [label= "<L>J|<R>&not;K",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n354->n354e0 [arrowsize=.50];
+n354e1
+      [label= "<L>&not;J|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n354->n354e1 [arrowsize=.50];
+n792 [label= "19",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n792e0
+      [label= "<L>J|<R>K",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n792->n792e0 [arrowsize=.50];
+n792e1
+      [label= "<L>&not;J|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n792->n792e1 [arrowsize=.50];
+n854 [label= "17",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n854e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n854->n854e0 [arrowsize=.50];
+n854e0:L:c->n732 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n854e0:R:c->n851 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n854e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n854->n854e1 [arrowsize=.50];
+n854e1:L:c->n734 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n796 [label= "17",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n796e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n796->n796e0 [arrowsize=.50];
+n796e0:L:c->n675 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n796e0:R:c->n793 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n796e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n796->n796e1 [arrowsize=.50];
+n796e1:L:c->n677 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1525 [label= "17",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1525e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1525->n1525e0 [arrowsize=.50];
+n1525e0:L:c->n732 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1525e0:R:c->n1524 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1525e1
+      [label= "<L>|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1525->n1525e1 [arrowsize=.50];
+n1525e1:L:c->n734 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1522 [label= "17",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1522e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1522->n1522e0 [arrowsize=.50];
+n1522e0:L:c->n675 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1522e0:R:c->n1521 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1522e1
+      [label= "<L>|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1522->n1522e1 [arrowsize=.50];
+n1522e1:L:c->n677 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n172 [label= "15",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n172e0
+      [label= "<L>&not;H|<R>&not;I",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n172->n172e0 [arrowsize=.50];
+n172e1
+      [label= "<L>H|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n172->n172e1 [arrowsize=.50];
+n64 [label= "15",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n64e0
+      [label= "<L>&not;H|<R>I",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n64->n64e0 [arrowsize=.50];
+n64e1
+      [label= "<L>H|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n64->n64e1 [arrowsize=.50];
+n666 [label= "15",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n666e0
+      [label= "<L>&not;H|<R>I",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n666->n666e0 [arrowsize=.50];
+n666e1
+      [label= "<L>H|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n666->n666e1 [arrowsize=.50];
+n669 [label= "15",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n669e0
+      [label= "<L>&not;H|<R>&not;I",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n669->n669e0 [arrowsize=.50];
+n669e1
+      [label= "<L>H|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n669->n669e1 [arrowsize=.50];
+n732 [label= "13",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n732e0
+      [label= "<L>G|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n732->n732e0 [arrowsize=.50];
+n732e0:R:c->n172 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n732e1
+      [label= "<L>&not;G|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n732->n732e1 [arrowsize=.50];
+n734 [label= "13",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n734e0
+      [label= "<L>G|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n734->n734e0 [arrowsize=.50];
+n734e0:R:c->n64 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n734e1
+      [label= "<L>&not;G|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n734->n734e1 [arrowsize=.50];
+n675 [label= "13",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n675e0
+      [label= "<L>&not;G|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n675->n675e0 [arrowsize=.50];
+n675e0:R:c->n666 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n675e1
+      [label= "<L>G|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n675->n675e1 [arrowsize=.50];
+n677 [label= "13",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n677e0
+      [label= "<L>&not;G|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n677->n677e0 [arrowsize=.50];
+n677e0:R:c->n669 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n677e1
+      [label= "<L>G|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n677->n677e1 [arrowsize=.50];
+n1243 [label= "11",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1243e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1243->n1243e0 [arrowsize=.50];
+n1243e0:L:c->n665 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1243e0:R:c->n854 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1243e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1243->n1243e1 [arrowsize=.50];
+n1243e1:L:c->n1242 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1268 [label= "11",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1268e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1268->n1268e0 [arrowsize=.50];
+n1268e0:L:c->n674 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1268e0:R:c->n796 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1268e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1268->n1268e1 [arrowsize=.50];
+n1268e1:L:c->n1267 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1526 [label= "11",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1526e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1526->n1526e0 [arrowsize=.50];
+n1526e0:L:c->n665 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1526e0:R:c->n1525 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1526e1
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1526->n1526e1 [arrowsize=.50];
+n1526e1:L:c->n674 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1526e1:R:c->n1522 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1526e2
+      [label= "<L>|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1526->n1526e2 [arrowsize=.50];
+n1526e2:L:c->n1152 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n644 [label= "9",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n644e0
+      [label= "<L>&not;E|<R>F",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n644->n644e0 [arrowsize=.50];
+n644e1
+      [label= "<L>E|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n644->n644e1 [arrowsize=.50];
+n649 [label= "9",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n649e0
+      [label= "<L>&not;E|<R>&not;F",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n649->n649e0 [arrowsize=.50];
+n649e1
+      [label= "<L>E|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n649->n649e1 [arrowsize=.50];
+n168 [label= "9",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n168e0
+      [label= "<L>&not;E|<R>&not;F",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n168->n168e0 [arrowsize=.50];
+n168e1
+      [label= "<L>E|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n168->n168e1 [arrowsize=.50];
+n61 [label= "9",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n61e0
+      [label= "<L>&not;E|<R>F",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n61->n61e0 [arrowsize=.50];
+n61e1
+      [label= "<L>E|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n61->n61e1 [arrowsize=.50];
+n645 [label= "7",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n645e0
+      [label= "<L>&not;D|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n645->n645e0 [arrowsize=.50];
+n645e0:R:c->n644 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n645e1
+      [label= "<L>D|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n645->n645e1 [arrowsize=.50];
+n1137 [label= "7",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1137e0
+      [label= "<L>&not;D|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1137->n1137e0 [arrowsize=.50];
+n1137e0:R:c->n649 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1137e1
+      [label= "<L>D|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1137->n1137e1 [arrowsize=.50];
+n629 [label= "7",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n629e0
+      [label= "<L>D|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n629->n629e0 [arrowsize=.50];
+n629e0:R:c->n168 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n629e1
+      [label= "<L>&not;D|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n629->n629e1 [arrowsize=.50];
+n1266 [label= "7",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1266e0
+      [label= "<L>D|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1266->n1266e0 [arrowsize=.50];
+n1266e0:R:c->n61 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1266e1
+      [label= "<L>&not;D|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1266->n1266e1 [arrowsize=.50];
+n650 [label= "7",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n650e0
+      [label= "<L>&not;D|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n650->n650e0 [arrowsize=.50];
+n650e0:R:c->n649 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n650e1
+      [label= "<L>D|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n650->n650e1 [arrowsize=.50];
+n650e1:R:c->n61 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n665 [label= "5",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n665e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n665->n665e0 [arrowsize=.50];
+n665e0:L:c->n642 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n665e0:R:c->n645 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n665e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n665->n665e1 [arrowsize=.50];
+n665e1:L:c->n664 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1242 [label= "5",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1242e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1242->n1242e0 [arrowsize=.50];
+n1242e0:L:c->n642 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1242e0:R:c->n1137 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1242e1
+      [label= "<L>|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1242->n1242e1 [arrowsize=.50];
+n1242e1:L:c->n664 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n674 [label= "5",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n674e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n674->n674e0 [arrowsize=.50];
+n674e0:L:c->n642 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n674e0:R:c->n629 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n674e1
+      [label= "<L>|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n674->n674e1 [arrowsize=.50];
+n674e1:L:c->n664 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1267 [label= "5",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1267e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1267->n1267e0 [arrowsize=.50];
+n1267e0:L:c->n642 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1267e0:R:c->n1266 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1267e1
+      [label= "<L>|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1267->n1267e1 [arrowsize=.50];
+n1267e1:L:c->n664 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1152 [label= "5",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n1152e0
+      [label= "<L>|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1152->n1152e0 [arrowsize=.50];
+n1152e0:L:c->n642 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1152e0:R:c->n650 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n1152e1
+      [label= "<L>|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n1152->n1152e1 [arrowsize=.50];
+n1152e1:L:c->n664 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n234 [label= "3",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n234e0
+      [label= "<L>B|<R>&not;C",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n234->n234e0 [arrowsize=.50];
+n234e1
+      [label= "<L>&not;B|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n234->n234e1 [arrowsize=.50];
+n663 [label= "3",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n663e0
+      [label= "<L>B|<R>C",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n663->n663e0 [arrowsize=.50];
+n663e1
+      [label= "<L>&not;B|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n663->n663e1 [arrowsize=.50];
+n642 [label= "1",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n642e0
+      [label= "<L>&not;A|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n642->n642e0 [arrowsize=.50];
+n642e0:R:c->n234 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n642e1
+      [label= "<L>A|<R>&#8869;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n642->n642e1 [arrowsize=.50];
+n664 [label= "1",style=filled,fillcolor=gray95,shape=circle,height=.25,width=.25]; 
+n664e0
+      [label= "<L>&not;A|<R>",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n664->n664e0 [arrowsize=.50];
+n664e0:R:c->n663 [arrowsize=.50,tailclip=false,arrowtail=dot,dir=both];
+n664e1
+      [label= "<L>A|<R>&#8868;",
+      shape=record,
+      fontsize=20,
+      fontname="Times-Italic",
+      fillcolor=white,
+      style=filled,
+      fixedsize=true,
+      height=.30, 
+      width=.65];
+
+n664->n664e1 [arrowsize=.50];
+
+
+}

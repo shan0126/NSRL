@@ -1,0 +1,16 @@
+/var/spool/slurm/slurmd/job11009654/slurm_script: line 11: 4109931 Killed                  python logicEncoder.py
+slurmstepd: error: Detected 1 oom_kill event in StepId=11009654.batch. Some of the step tasks have been OOM Killed.
+
+JOB STATISTICS
+==============
+Job ID: 11009654
+Cluster: snellius
+User/Group: shuaih/shuaih
+State: OUT_OF_MEMORY (exit code 0)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 01:06:18
+CPU Efficiency: 1.49% of 3-01:55:12 core-walltime
+Job Wall-clock time: 01:09:18
+Memory Utilized: 111.38 GB
+Memory Efficiency: 99.45% of 112.00 GB (112.00 GB/node)
